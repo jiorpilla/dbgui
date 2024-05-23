@@ -1,0 +1,27 @@
+@import 'variables';
+
+body {
+    font-family: $font-family-main;
+    color: $color-default;
+    background-color: $background-color;
+    font-size:14px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    font-family: $font-family-secondary;
+}
+
+.nav-off {
+    .main-wrapper {
+        margin-left:0;
+    }
+
+    .menu-toggle {
+        margin-left:0;
+    }
+
+    .sidebar {
+        left: -100%;
+    }
+}
