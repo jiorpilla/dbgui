@@ -1,0 +1,119 @@
+@import 'variables';
+
+.page-heading {
+    font-size:2rem;
+    margin-bottom:30px;
+}
+
+.main-wrapper {
+    position:relative;
+    margin-left:260px;
+    margin-bottom:80px;
+    top:70px;
+    transition: 100ms;
+}
+
+.main-content {
+    margin:8px 16px;
+
+    .widget {
+
+        .btn-edit {
+            font-size: 14px;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #4d4d4d;
+            border: 0;
+            padding:0;
+        }
+
+        &.sticky-top {
+            top:102px;
+        }
+
+        &.main {
+            .widget-heading {
+                background-color: lighten($color-main, 70%);
+
+            }
+        }
+
+        .widget-wrapper {
+            background-color: #fff;
+            border-radius: $border-radius;
+            border: 1px solid #dbe3ea;
+            box-shadow: 0 3px 4px 0 #00000008;
+
+            .widget-heading {
+                border-bottom: 1px solid #dbe3ea;
+                align-items: center;
+                justify-content:space-between;
+                display:flex;
+                padding: $padding-default;
+                background-color: #fdfdfd;
+
+                .breadcrumb {
+                    margin-bottom:0;
+                    font-size: 12px;
+
+                    a {
+                        color: $color-default;
+                        text-decoration: none;
+                        font-weight: 400;
+                    }
+
+                }
+
+                h1 {
+                    font-size: 16px;
+                    color:#000;
+                    margin:0;
+                    text-transform: uppercase;
+                }
+
+                &.appointment-heading {
+                    h1 {
+                        font-size: 24px;
+                        font-weight: 600;
+                        color: #000;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .widget-body {
+                padding: $padding-default;
+
+                .form-section {
+                    &.accordion-item {
+                        border:0;
+                    }
+                    .accordion-button {
+                        width: auto;
+
+                        &::after {
+                            margin-left: 0.8rem;
+                            scale:0.8;
+                        }
+                    }
+                }
+
+            }
+
+            .list-group-item {
+                a {
+                    color: $color-default;
+                }
+
+
+            }
+        }
+    }
+}
+
+.widget-column {
+    margin-top:0;
+    .widget {
+        margin-top: 1.5rem;
+    }
+}

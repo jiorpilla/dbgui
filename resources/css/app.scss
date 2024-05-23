@@ -1,0 +1,18 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import 'bootstrap/scss/bootstrap';
+@import '@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '@fortawesome/fontawesome-free/css/regular.css';
+@import '@fortawesome/fontawesome-free/css/solid.css';
+@import '@fortawesome/fontawesome-free/css/brands.css';
+
+
+@import 'includes/variables';
+@import 'includes/global';
+@import 'includes/sidebar';
+@import 'includes/header';
+@import 'includes/main';
+@import 'includes/breadcrumbs';
+@import 'includes/footer';
