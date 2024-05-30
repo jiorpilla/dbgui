@@ -25,3 +25,15 @@ h1,h2,h3,h4,h5,h6 {
         left: -100%;
     }
 }
+
+.error-message {
+    color: #ce482d;
+    background-color: #ffefef;
+    font-size: 14px;
+    padding: 12px;
+    margin:20px 0;
+
+    i {
+        padding-right:5px;
+    }
+}
